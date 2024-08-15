@@ -1,0 +1,110 @@
+.primary-color{   /*클래스 명 = primary-color*/
+    color: blueviolet;
+}
+
+.font-50{
+    font-size: 50px;
+}
+
+.select-style1{
+    height: 40px; font-size: 20px; color: blueviolet;
+}
+
+.tb-head>tr>td{
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.tb-body>tr>td{
+    border: 1px solid #000;
+}
+
+p {
+    background: yellowgreen;
+    /* color: darkgreen; */
+}
+
+.class1{
+    /* background: red; */
+    color: darkgreen;
+}
+
+#p1{
+    background: rgb(68, 42, 180);
+    color: rgb(98, 143, 56);
+}
+
+/* 플로트 레이아웃 */
+.box {  
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+/* 포지셔닝 레이아웃 */
+.relative-box {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.fixed-box {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/* flexbox 레이아웃 */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    background-color: #4CAF50;
+    padding: 20px;
+}
+
+/* grid 레이아웃 */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    background-color: #4CAF50;
+    padding: 20px;
+}
+
+/* table 레이아웃 */
+.container {
+    display: table;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* 멀티컬럼 레이아웃 */
+.multi-column {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+/* Responsive 레이아웃 */
+.multi-column {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 20px;
+    box-sizing: border-box; /* 패딩과 테두리가 width와 height에 포함됨 */
+}
